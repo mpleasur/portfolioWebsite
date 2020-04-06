@@ -1,0 +1,70 @@
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+.column {
+  float: left;
+  width: 40%;
+  
+  
+  
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#texttab{
+    padding-top: 6em;
+    padding-left: 3.5em;
+}
+
+p {
+    
+    color: white;
+   font-family: 'Assistant', sans-serif;
+    font-size: .9em;
+    padding: .5em;
+}
+
+.marap{
+    
+    width: 45em;
+    
+}
+    
+
+
+.logo{
+    height:3em;
+}
+
+a{
+    color:lightpink;
+    text-decoration: none;
+}
+a:visited {
+    color:lightpink;
+    text-decoration: none;
+}
+
+a:hover{
+    color:palevioletred;
+    text-decoration: none;
+}
+
+
+h2{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 1.5em;
+    color:white;
+    padding: .4em;
+    
+}

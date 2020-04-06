@@ -1,0 +1,72 @@
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 1.8em; 
+    padding-left:2em;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo{
+    height:3em;
+}
+
+h2{
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    color:white;
+}
+
+h3{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    color:lightblue;
+}
+
+li {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    color:white;
+    font-size:.9em;
+    list-style-type: none;
+    padding:.3em;
+}
+
+a{
+    color:lightpink;
+}
+a:visited {
+    color:lightpink;
+}
+
+a:hover{
+    color:lightpink;
+}
+
+
+p {
+    color: white;
+    font-family: 'Assistant', sans-serif;
+    font-size: .9em;
+    
+}
+
+
+ul{
+    list-style-type: none;
+}
+    
